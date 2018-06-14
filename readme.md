@@ -15,6 +15,9 @@ We created an MVP for our project which included the following:
 We would have liked to add an additional chart in terms of a piechart breakdown of the user's total carbon footprint but we ran out of time. In future the programme can include more inputs for carbon useage (such as shopping habits, as these make a big impact on an individual's carbon footprint). Another interface can be added to calculate the carbon footprint of a household.
 
 ## Install
+
+In order to see this app in action, you can perform the following steps:
+
 * Install npm: `$ brew install npm`
 * Install highcharts: `$ npm install highcharts --save`
 * `$ git clone ...`
