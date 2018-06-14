@@ -14,6 +14,22 @@ We created an MVP for our project which included the following:
 
 We would have liked to add an additional chart in terms of a piechart breakdown of the user's total carbon footprint but we ran out of time. In future the programme can include more inputs for carbon useage (such as shopping habits, as these make a big impact on an individual's carbon footprint). Another interface can be added to calculate the carbon footprint of a household.
 
+## Install
+* Install npm: `$ brew install npm`
+* Install highcharts: `$ npm install highcharts --save`
+* `$ git clone ...`
+* If prompted, install node
+* Run npm packager `$ npm install`
+* Create development database:
+`$ mongod`
+* Add the seed file on a new terminal tab
+`$ mongo < server/db/seeds.js`
+* Run bundler on a new tab: `$ npm run build`
+* Run server on a new tab: `$ npm run server:dev`
+
+## Run
+* Open Google Chrome and go to `http://localhost:3000`
+
 ## Planning and Methods
 We adopted an Agile methodology with 1-1.5 hour sprints focusing on particular features and functionality, as well as doing daily stand-ups and retrospectives. We took turns in being Scrum Master each day and regularly took turns to drive.
 
